@@ -79,7 +79,8 @@ h3{
     height: 375px;
     left: 50px;
     top: 2510px;
-    drop-shadow:(16px 16px 10px black); 
+    box-shadow: 2px 2px 12px rgb(190, 190, 190);
+
     border-radius: 10px;
   }
  
