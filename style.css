@@ -82,7 +82,7 @@ h3{
     drop-shadow:(16px 16px 10px black); 
     border-radius: 10px;
   }
-
+ 
 
 
   .image-stack {
@@ -162,16 +162,16 @@ h3{
     padding: 0 20px 0px 0;
   }
   .swiper-slide {
-    width: 80%;
+    width: 70%;
     height: 500px;
     text-align: left;
     font-size: 22px;
   }
   .swiper-slide:nth-child(2n) {
-    width: 50%;
+    width: 70%;
   }
   .swiper-slide:nth-child(3n) {
-    width: 50%;
+    width: 58%;
   }
 
 
