@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tiyasha's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<!-- Navbar (sit on top) -->
+
+<div id="navbar" class="sticky">
+    <a href="#" style="float:left; font-size: 28px;"><span style='color: #E92577'>T</span><span style='color: black'>IYASHA</span><span style='color: #E92577'>B</span><span style='color: black'>ISWAS</span></a>
+    <a onclick="clickSingleA(this)" class="single" href="#" style="float:right; ">RESUME</a>
+    <a onclick="clickSingleA(this)" class="single" href="index.html#contact" style="float:right;">CONTACT</a>
+    <a onclick="clickSingleA(this)" class="single active"  href="about.html" style="float:right;">ABOUT</a>
+    <a onclick="clickSingleA(this)" class="single" href="index.html#projects" style="float:right;">PROJECT</a>
+      <a onclick="clickSingleA(this)" class="single" href="index.html" style="float:right;">HOME</a>
+      
+    
+  
+      
+  
+  </div>
+  <div>
+    <div class="column" >
+        <img src="images/JPEG image 2.jpeg" alt="Tiyasha" width="452" height="675" style="border-radius: 20px;">
+    </div>
+    <div class="column" style="padding-top: 100px;">
+        <p>I am a final-year computer science student at Vellore Institute of Technology. Even though I was learning to code, I was looking for anything that would identify me. On one of my hunting days, I stumbled across UI/UX and it simply resonated with me, and I've never stopped  learning since then.
+        </p>
+           <p> My interest in design stems from my cultural heritage. Born in West Bengal and reared in five different Indian states, I've developed the capacity to swiftly adjust to a variety of life challenges. I encompass and try to integrate all cultures in my work. </p>
+
+    </div>
+</div>
+
+
+<br>
+<br>
+<div>
+    
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+    <h1 style="text-align: center; font-size: 50px;">ILLUSTRATIONS</h1>
+    <h2 style="text-align: center; font-size: 30px;">I draw to communicate to people. </h2>
+    <br>
+    <br>
+    <div class="rowabout">
+        <div class="columnabout" >
+          <img src="images/D68BE163-136F-4C11-ABF0-34C58E48030F.png" style="width: 385px; height: 530px;     box-shadow: 2px 2px 12px rgb(190, 190, 190);">
+        </div>
+        <div class="columnabout" >
+            <img src="images/4199A84B-AF0F-4478-8C73-AD6F738A2B15.png" style="width: 385px; height: 530px;     box-shadow: 2px 2px 12px rgb(190, 190, 190);">
+        </div>
+        <div class="columnabout" >
+            <img src="images/20D520AE-FDAB-4430-A6DC-A3D001329730.png" style="width: 385px; height: 530px;    box-shadow: 2px 2px 12px rgb(190, 190, 190);">
+         </div>
+    </div>
+    <br>
+    <div class="rowabout">
+        <div class="columnabout" >
+            <img src="images/0504BCF1-55E5-405A-874C-11BDF65EBFAC.png" style="width: 385px; height: 530px;     box-shadow: 2px 2px 12px rgb(190, 190, 190);">
+        </div>
+        <div class="columnabout" >
+            <img src="images/94ABC149-FAC3-468C-AA1A-42CF0CD1E70B (2).png" style="width: 385px; height: 530px;    box-shadow: 2px 2px 12px rgb(190, 190, 190);">
+        </div>
+        <div class="columnabout" >
+            <!--<img src="images/20D520AE-FDAB-4430-A6DC-A3D001329730.png" style="width: 385px; height: 530px;">-->
+        </div>
+    </div>
+
+</div>
+<footer >
+  
+</footer>
+
+<script>
+    function clickSingleA(a)
+    {
+        items = document.querySelectorAll('.single.active');
+
+        if(items.length) 
+        {
+            items[0].className = 'single';
+        }
+
+        a.className = 'single active';
+    }
+</script>
+
+</html>
